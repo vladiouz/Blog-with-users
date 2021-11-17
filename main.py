@@ -67,7 +67,7 @@ class Comment(db.Model):
     text = db.Column(db.Text)
 
 
-# db.create_all()
+db.create_all()
 
 
 @login_manager.user_loader
